@@ -1,0 +1,1079 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-fluid{
+    width: 100%;
+    object-fit: cover;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: baseline;
+    height: 716px;
+}
+.title h1{
+    font-size: 124px;
+    font-weight: bold;
+    color: white;
+}
+.title p{
+    font-size: 29px;
+    color: white;
+}
+.title-btn button{
+    padding: 10px 15px;
+    font-size: 29px;
+    font-weight: bold;
+    background-color: #e8631c;
+    color: white;
+    border: none;
+    margin-top: 5%;
+}
+.parent1{
+    background-image: url("image/Untitled-1.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 795px;
+}
+
+.parent2{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #303030;
+    z-index: 2;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.parent2 .sticky{
+    background-color: white;
+    z-index: 3;
+}
+.parent2 .navbar{
+    justify-content: center;
+}
+.navbar .menu-list{
+    display: inline-flex;
+    margin-bottom: 0;
+}
+.menu-list li a{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 15px;
+    transition: all 0.5s;
+}
+.icon{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+/* .logo a{
+    padding-right: 20%;
+} */
+.icon.close-btn{
+    position: absolute;
+    top:14px;
+    right: 6%;
+    z-index: 5;
+}
+#menu-bar, nav label{
+    display: none;
+  }
+  .search-btn button{
+    font-size: 25px;
+    padding: 0 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+
+.parent3{
+    background-color: #e8631c;
+    text-align: center;
+    padding: 5% 0;
+}
+.dance{
+    padding-bottom: 3%;
+}
+.dance h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+.dance p{
+    font-size: 29px;
+    color: white;
+}
+.dance-img{
+    background-color: #303030;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dance-img h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-top: 5%;
+}
+.dance-img p{
+    font-size: 22px;
+    color: white;
+}
+
+.parent4{
+    background-color: #303030;
+    text-align: center;
+    padding: 5% 0;
+}
+.pricing{
+    padding-bottom: 3%;
+}
+.pricing h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+.pricing p{
+    font-size: 29px;
+    color: white;
+}
+.pricing-content{
+    background-color: #e8631c;
+    border-radius: 10px;
+}
+.pricing-content img{
+    padding-top: 10%;
+}
+.pricing-content h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.pricing-content p{
+    font-size: 22px;
+    color: white;
+    padding-bottom: 10px;
+}
+.pricing-btn button{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 50px;
+    background-color: #303030;
+    color: white;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.parent5{
+    background-color: #e8631c;
+}
+.amazing-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.amazing-content h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 5%;
+}
+.amazing-content p{
+    font-size: 29px;
+    color: white;
+    padding-bottom: 5%;
+}
+.amazing-bt button{
+    font-size: 29px;
+    font-weight: bold;
+    background-color: #303030;
+    color: white;
+    padding: 5px 40px;
+    border: 1px solid #303030;
+    border-radius: 5px;
+}
+.parent6{
+    background-color: #e8631c;
+}
+.best{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.best h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 5%;
+}
+.best p{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 5%;
+}
+.best-btn button{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #303030;
+    padding: 5px 40px;
+    border: 1px solid #303030;
+}
+
+.parent-7{
+    background-color: #303030;
+    text-align: center;
+    padding: 5% 0;
+}
+.our{
+    padding-bottom: 5%;
+}
+.our h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+.our p{
+    font-size: 29px;
+    color: white;
+}
+.club h1{
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+.club p{
+    font-size: 41px;
+    color: white;
+}
+
+.parent8{
+    position: relative;
+    text-align: center;
+}
+.simon-content p{
+    font-size: 50px;
+    color: white;
+}
+.simon-content h2{
+    font-size: 58px;
+    font-weight: bold;
+    color: white;
+}
+.simon-content{
+    padding-top: 27%;
+}
+.simon-img{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.parent9{
+    position: relative;
+    text-align: center;
+    background-color: #e8631c;
+    margin-top: 21%;
+}
+.subscribe h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 2%;
+}
+.subscribe p{
+    font-size: 29px;
+    color: white;
+    padding-bottom: 3%;
+}
+.sub-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-in input{
+    width: 40%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.sub-in button{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 10px;
+    background-color: #303030;
+    color: white;
+    border: 1px solid #303030;
+}
+.subscribe{
+    padding: 10% 0;
+}
+
+.parent10{
+    background-color: #303030;
+    padding: 5% 0;
+}
+.other-content h1{
+    font-size: 33px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 5%;
+}
+.other p{
+    font-size: 15px;
+    color: white;
+    padding-bottom: 5%;
+}
+.other-ul ul{
+    display: flex;
+    padding-left: 0;
+}
+.other-ul ul li a{
+    border: 1px solid;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: white;
+    color: #303030;
+    border: none;
+}
+.brand-ul ul{
+    padding-left: 0;
+}
+.brand-ul ul li a{
+    font-size: 25px;
+    transition: 0.8s;
+}
+@media(max-width:1280px){
+    .simon-content{
+        padding-top: 22%;
+    }
+    .other p {
+        font-size: 14px;
+    }
+    .title {
+        top: 28%;
+    }
+}
+@media(max-width:1224px){
+    .title h1{
+        font-size: 114px;
+    }
+    .other p{
+        font-size: 15px;
+    }
+    .title {
+        top:10%;
+    }
+}
+@media(max-width:1024px){
+    .title h1 {
+        font-size: 90px;
+    }
+    .title p{
+        font-size: 26px;
+    }
+    .title-btn button{
+        font-size: 25px;
+        margin-top: 0;
+    }
+    .amazing-content h1{
+        font-size: 53px;
+    }
+    .amazing-content p{
+        font-size: 26px;
+    }
+    .amazing-bt button{
+        font-size: 25px;
+    }
+    .other p {
+        font-size: 12px;
+    }
+    .other-ul ul li a{
+        font-size: 20px;
+        margin-left: 7px;
+    }
+    .title {
+        top: 19%;
+    }
+}
+  @media(max-width:992px){
+    .title{
+        height: 566px;
+        text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+    .parent1{
+        min-height: 647px;
+    }
+    .icon{
+        display: block;
+    }
+    .navbar .menu-list{
+        position: fixed;
+        background: #303030;
+        top:7%;
+        left:-100%;
+        width:100%;
+        height:100vh;
+        max-width: 400px;
+        display: block;
+        padding: 50px 0;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    .logo{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .menu-list li a:hover{
+        color:rgb(209, 15, 147);
+    }
+    .navbar .menu-list.active{
+        left:0;
+    }
+    .navbar .menu-list li{
+        margin-top: 45px;
+    }
+    .navbar .menu-list li a{
+        font-size: 22px;
+    }
+    .search-btn{
+        display: none;
+    }
+  }
+  @media(max-width:912px){
+    .navbar .menu-list{
+        top: 7%;
+    }
+    .title {
+        top: 10%;
+    }
+    .dance p {
+        font-size: 28px;
+        color: white;
+    }
+    .pricing p {
+        font-size: 28px;
+    }
+    .pricing-content{
+        margin: 20px 0;
+    }
+    .parent5{
+        text-align: center;
+    }
+    .amazing-img img{
+        padding: 10px 0;
+    }
+    .parent6{
+        text-align: center;
+    }
+    .best{
+        padding: 20px 0;
+    }
+    .best-img img{
+        padding: 10px 0;
+    }
+    .our p{
+        font-size: 28px;
+    }
+    .simon-content p {
+        font-size: 37px;
+    }
+    .parent9 {
+        margin-top: 18%;
+    }
+    .subscribe p {
+        font-size: 28px;
+    }
+    .parent10{
+        text-align: center;
+    }
+    .other-ul ul{
+        justify-content: center;
+    }
+    .other-content h1 {
+        font-size: 55px;
+    }
+    .other p {
+        font-size: 23px;
+    }
+    .other-ul ul li a {
+        font-size: 36px;
+    }
+    .brand-ul ul li a {
+        font-size: 35px;
+    }
+    .dance-img{
+        margin: 20px 0;
+    }
+    .amazing-content{
+        padding: 20px 0;
+    }
+  }
+  @media(max-width:800px){
+    .title {
+        height: 486px;
+    }
+    .parent1 {
+        min-height: 474px;
+    }
+    .title h1 {
+        font-size: 70px;
+    }
+    .title p {
+        font-size: 20px;
+    }
+    .title-btn button{
+        font-size: 21px;
+    }
+    .title {
+        top: 8%;
+    }
+    .dance h1{
+        font-size: 66px;
+    }
+    .dance p{
+        font-size: 21px;
+    }
+    .dance-content{
+        margin: 5% 0;
+    }
+    .dance-img h3{
+        font-size: 60px;
+    }
+    .dance-img p{
+        font-size: 30px;
+    }
+    .pricing p{
+        font-size: 21px;
+    }
+    .pricing-content{
+        margin: 5% 0;
+    }
+    .amazing-content{
+        text-align: center;
+    }
+    .parent5{
+        padding: 5% 0;
+    }
+    .parent6{
+        text-align: center;
+        padding: 5% 0;
+    }
+    .best {
+        padding: 5% 0;
+    }
+    .our h1{
+        font-size: 60px;
+    }
+    .our p{
+        font-size: 21px;
+    }
+    .simon-content p{
+        font-size: 26px;
+    }
+    .subscribe h1{
+        font-size: 60px;
+    }
+    .subscribe p{
+        font-size: 21px;
+    }
+    .parent10{
+        text-align: center;
+    }
+    .other-ul ul{
+        justify-content: center;
+    }
+    .other-content h1{
+        font-size: 45px;
+    }
+    .other p {
+        font-size: 20px;
+    }
+    .other-ul ul li a{
+        font-size: 30px;
+    }
+    .brand-ul ul li a{
+        font-size: 33px;
+    }
+  }
+  @media(max-width:640px){
+    .navbar .menu-list {
+        top: 17%;
+        padding: 0;
+        line-height: 5px;
+    }
+    .logo a img{
+        width: 70%;
+    }
+    .title h1 {
+        font-size: 55px;
+    }
+    .title p {
+        font-size: 16px;
+    }
+    .title-btn button {
+        font-size: 17px;
+    }
+    .title {
+        top: 19%;
+    }
+    .dance h1 {
+        font-size: 60px;
+    }
+    .dance p {
+        font-size: 21px;
+    }
+    .pricing h1{
+        font-size: 65px;
+    }
+    .pricing p {
+        font-size: 21px;
+    }
+    .our h1 {
+        font-size: 55px;
+    }   
+    .our p {
+        font-size: 21px;
+    }
+    .simon-content p {
+        font-size: 28px;
+    }
+    .subscribe p {
+        font-size: 21px;
+    }
+  }
+  @media(max-width:600px){
+    .title {
+        top: 8%;
+    }
+  }
+  @media(max-width:575px){
+    /* .title h1 {
+        font-size: 45px;
+    } */
+    /* .title p {
+        font-size: 15px;
+    } */
+     .navbar .menu-list{
+        max-width: 300px;
+     } 
+     .title {
+        top: 9%;
+    } 
+  }
+  @media(max-width:480px){
+    .navbar .menu-list{
+        top: 7%;
+    }
+    /* .title h1 {
+        font-size: 35px;
+    } */
+    /* .title p {
+        font-size: 13px;
+    } */
+    .title-btn button {
+        font-size: 14px;
+    }
+    .title {
+        top: 8%;
+    }
+    .dance h1 {
+        font-size: 50px;
+    }
+    .dance p {
+        font-size: 18px;
+    }
+    .dance-img h3 {
+        font-size: 50px;
+    }
+    .dance-img p {
+        font-size: 27px;
+    }
+    .pricing h1 {
+        font-size: 55px;
+    }
+    .pricing p {
+        font-size: 18px;
+    }
+    .amazing-content h1 {
+        font-size: 45px;
+    }
+    .amazing-content p {
+        font-size: 23px;
+    }
+    .amazing-bt button {
+        font-size: 21px;
+    }
+    .best h1{
+        font-size: 55px;
+    }
+    .best p{
+        font-size: 22px;
+    }
+    .best-btn button{
+        font-size: 21px;
+    }
+    .our h1 {
+        font-size: 45px;
+    }
+    .our p {
+        font-size: 18px;
+    }
+    .club h1{
+        font-size: 50px;
+    }
+    .simon-content p {
+        font-size: 22px;
+    }
+    .simon-content h2{
+        font-size: 45px;
+    }
+    .simon-content {
+        padding-top: 8%;
+    }
+    .subscribe h1 {
+        font-size: 50px;
+    }
+    .subscribe p {
+        font-size: 18px;
+    }
+    .other-content h1 {
+        font-size: 40px;
+    }
+    .other-ul ul li a {
+        font-size: 25px;
+    }
+    .brand-ul ul li a {
+        font-size: 28px;
+    }
+  }
+  @media(max-width:420px){
+    .logo a img{
+        width: 50%;
+    }
+    .icon {
+        font-size: 22px;
+    }
+    /* .title h1 {
+        font-size: 30px;
+    } */
+    /* .title p {
+        font-size: 12px;
+    } */
+    .title-btn button {
+        font-size: 12px;
+    }
+    .title {
+        top: 7%;
+    }
+    .dance h1 {
+        font-size: 40px;
+    }
+    .dance p {
+        font-size: 15px;
+    }
+    .pricing h1 {
+        font-size: 50px;
+    }
+    .pricing p {
+        font-size: 15px;
+    }
+    .our h1 {
+        font-size: 40px;
+    }
+    .our p {
+        font-size: 15px;
+    }
+    .club h1 {
+        font-size: 40px;
+    }
+    .club p{
+        font-size: 35px;
+    }
+    .subscribe h1 {
+        font-size: 45px;
+    }
+    .subscribe p {
+        font-size: 15px;
+    }
+    .simon-content {
+        padding-top: 2%;
+    }
+    .simon-content p {
+        font-size: 20px;
+    }
+    .other-content h1 {
+        font-size: 32px;
+    }
+    .navbar .menu-list {
+        top: 6%;
+    }
+    .amazing-content p {
+        font-size: 21px;
+    }
+    .best p {
+        font-size: 20px;
+    }
+    .sub-in input{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .sub-in button{
+        width: 100%;
+    }
+    .sub-in{
+        flex-direction: column;
+    }
+    .amazing-content h1 {
+        font-size: 40px;
+    }
+  }
+  @media(max-width:384px){
+    .navbar .menu-list {
+        top: 4%;
+    }
+    .title {
+        top: 8%;
+    }
+    .dance h1 {
+        font-size: 35px;
+    }
+    .dance p {
+        font-size: 14px;
+    }
+    .dance-img h3 {
+        font-size: 40px;
+    }
+    .dance-img p {
+        font-size: 24px;
+    }
+    .pricing h1 {
+        font-size: 45px;
+    }
+    .pricing p {
+        font-size: 14px;
+    }
+    .amazing-content h1 {
+        font-size: 33px;
+    }
+    .amazing-content p {
+        font-size: 20px;
+    }
+    .amazing-bt button {
+        font-size: 19px;
+    }
+    .best h1 {
+        font-size: 45px;
+    }
+    .best p {
+        font-size: 20px;
+    }
+    .best-btn button {
+        font-size: 19px;
+    }
+    .our h1 {
+        font-size: 35px;
+    }
+    .our p {
+        font-size: 14px;
+    }
+    .simon-content p {
+        font-size: 20px;
+    }
+    .simon-content h2 {
+        font-size: 40px;
+    }
+    .subscribe h1 {
+        font-size: 40px;
+    }
+    .subscribe p {
+        font-size: 14px;
+    }
+    .sub-in{
+        flex-direction: column;
+    }
+    .sub-in input{
+        width: 100%;
+    }
+    .other-content h1 {
+        font-size: 28px;
+    }
+    .other p {
+        font-size: 18px;
+    }
+    .other-ul ul li a {
+        font-size: 20px;
+    }
+    .brand-ul ul li a {
+        font-size: 24px;
+    }
+    .navbar .menu-list {
+        max-width: 200px;
+    }
+  }
+  @media(max-width:375px){
+    .best p {
+        font-size: 19px;
+    }
+    .simon-content p {
+        font-size: 19px;
+    }
+    .simon-content h2 {
+        font-size: 36px;
+    }
+    .title {
+        top: 7%;
+    }
+  }
+  @media(max-width:360px){
+    .logo a img{
+        font-size: 35%;
+    }
+    .icon {
+        font-size: 17px;
+    }
+    /* .title h1 {
+        font-size: 25px;
+    } */
+    /* .title p {
+        font-size: 10px;
+    } */
+    .title {
+        top: 8%;
+    }
+    .title-btn button{
+        padding: 7px 7px;
+    }
+    .dance p {
+        font-size: 13px;
+    }
+    .pricing p {
+        font-size: 13px;
+    }   
+    .amazing-content p {
+        font-size: 19px;
+    }
+    .best p {
+        font-size: 18px;
+    }
+    .our p {
+        font-size: 13px;
+    }
+    .club h1 {
+        font-size: 35px;
+    }
+    .club p {
+        font-size: 30px;
+    }
+    .simon-content p {
+        font-size: 18px;
+    }
+    .subscribe p {
+        font-size: 13px;
+    }
+  }
+  @media(max-width:353px){
+    .navbar .menu-list {
+        top: 4%;
+    }
+  }
+  @media(max-width:320px){
+    /* .title h1 {
+        font-size: 22px;
+    } */
+    /* .title p {
+        font-size: 9px;
+    } */
+    .title-btn button {
+        font-size: 10px;
+    }
+    .dance h1 {
+        font-size: 30px;
+    }
+    .dance p {
+        font-size: 12px;
+    }
+    .dance-img h3 {
+        font-size: 30px;
+    }
+    .dance-img p {
+        font-size: 22px;
+    }
+    .pricing h1 {
+        font-size: 35px;
+    }
+    .pricing p {
+        font-size: 12px;
+    }
+    .amazing-content h1 {
+        font-size: 30px;
+    }
+    .amazing-content p {
+        font-size: 17px;
+    }
+    .best h1 {
+        font-size: 35px;
+    }
+    .best p {
+        font-size: 16px;
+    }
+    .our h1 {
+        font-size: 30px;
+    }
+    .our p {
+        font-size: 12px;
+    }
+    .simon-content p {
+        font-size: 16px;
+    }
+    .simon-content {
+        padding-top: 0%;
+    }
+    .subscribe h1 {
+        font-size: 35px;
+    }
+    .subscribe p {
+        font-size: 12px;
+    }
+    .other-content h1 {
+        font-size: 23px;
+    }
+    .other p {
+        font-size: 16px;
+    }
+    .other-ul ul li a {
+        font-size: 15px;
+    }
+    .brand-ul ul li a {
+        font-size: 20px;
+    }
+    .title {
+        top: 10%;
+    }
+    .navbar .menu-list {
+        top: 10%;
+    }
+  }
